@@ -1,0 +1,75 @@
+article {
+	flex: 2 2 700px;
+	min-height: 100%;
+	background-color: white;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 50px;
+	overflow: auto;
+}
+footer {
+	min-height: 100px;
+	border-top: 1px solid #ddd;
+	padding: 20px 0;
+}
+footer > h1 {
+	font-size: 40px;
+	font-weight: lighter;
+	text-align: left;
+}
+#title {
+	font-size: 45px;
+	font-weight: lighter;
+}
+#tag,
+#date {
+	text-align: right;
+	font-size: 15px;
+	margin: 15px 0;
+	font-weight: lighter;
+}
+#explain {
+	text-align: right;
+	font-size: 15px;
+	margin: 50px 0 10px;
+	font-weight: lighter;
+}
+#tag > a,
+#explain > a {
+	color: black;
+	transition: color 0.5s;
+}
+#tag > a:hover,
+#explain > a:hover {
+	color: #999;
+}
+
+#main-box {
+	font-weight: lighter;
+	text-align: left;
+	font-size: 20px;
+}
+#main-box img {
+	display: block;
+	margin: 30px auto 15px;
+	box-shadow: 0 0 5px black;
+}
+#arrow {
+	height: 30px;
+	line-height: 30px;
+	margin: 50px auto 10px;
+}
+#previous {
+	float: left;
+	color: black;
+	transition: color 0.5s;
+}
+#next {
+	float: right;
+	color: black;
+	transition: color 0.5s;
+}
+#previous:hover,
+#next:hover {
+	color: #999;
+}
